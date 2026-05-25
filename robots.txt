@@ -1,0 +1,6 @@
+# TT VDO DOWNLOADER — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location — update domain after deploy
+Sitemap: https://ttvdo.app/sitemap.xml

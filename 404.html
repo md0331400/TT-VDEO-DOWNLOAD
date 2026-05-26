@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="robots" content="noindex" />
+    <title>404 — Page Not Found · TT VDO DOWNLOADER</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0a0a0f;
+            color: #fff;
+            min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+        body::before {
+            content:''; position: absolute; inset: 0; z-index: -1;
+            background:
+              radial-gradient(700px 500px at 20% 10%, rgba(255,0,80,0.25), transparent 60%),
+              radial-gradient(600px 400px at 80% 80%, rgba(255,107,53,0.22), transparent 60%),
+              radial-gradient(500px 400px at 50% 50%, rgba(102,126,234,0.15), transparent 60%);
+            filter: blur(20px);
+        }
+        .wrap { max-width: 540px; }
+        .code {
+            font-size: clamp(7rem, 22vw, 12rem);
+            font-weight: 900;
+            line-height: 1;
+            background: linear-gradient(135deg, #ff0050 0%, #ff6b35 50%, #ff0050 100%);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -4px;
+        }
+        h1 {
+            font-size: clamp(1.4rem, 4vw, 2rem);
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            color: rgba(255,255,255,0.7);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #ff0050 0%, #ff6b35 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            box-shadow: 0 6px 25px rgba(255,0,80,0.4);
+            transition: transform .2s, box-shadow .2s;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,0,80,0.55); }
+        .brand {
+            position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
+            font-size: 0.85rem; font-weight: 700; letter-spacing: 1px;
+            background: linear-gradient(135deg, #ff0050, #ff6b35);
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="brand">TT VDO DOWNLOADER</div>
+    <div class="wrap">
+        <div class="code">404</div>
+        <h1>Page not found</h1>
+        <p>The page you're looking for doesn't exist or has been moved. Let's get you back to downloading TikTok videos.</p>
+        <a class="btn" href="/">← Back to home</a>
+    </div>
+</body>
+</html>

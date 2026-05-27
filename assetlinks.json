@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.amisayem.ttvdodownloader",
+        "sha256_cert_fingerprints": ["5C:E0:69:99:7F:2F:85:78:ED:18:ED:2D:67:41:EF:91:02:76:B8:D3:35:B6:7B:6C:5A:48:67:95:0F:AA:6D:AA"]
+      }
+    }]

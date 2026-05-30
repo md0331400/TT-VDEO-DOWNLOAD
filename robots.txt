@@ -1,6 +1,9 @@
-# TT VDO DOWNLOADER — robots.txt
 User-agent: *
 Allow: /
 
-# Sitemap location — update domain after deploy
+# Block Vercel internal paths
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap location
 Sitemap: https://ttvdodownloader.vercel.app/sitemap.xml

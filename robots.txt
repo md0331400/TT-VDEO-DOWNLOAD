@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-
-# Block Vercel internal paths
-Disallow: /_next/
-Disallow: /api/
-
-# Sitemap location
-Sitemap: https://ttvdodownloader.vercel.app/sitemap.xml
